@@ -1,0 +1,111 @@
+<html>
+
+
+<head>Roster</head>
+
+<H4 style="color:blue">Personal Details</H4>
+
+
+<style type="text/css">
+h6{
+	color: Pink;
+}
+
+ <form >
+
+
+<!--text-->
+  <label for="fname">First name:</label>
+  <input type="text"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" ><br><br>
+
+<!--Browse-->
+<label for="myfile">recent Photo:</label>
+<input type="file" id="myfile" name="myfile">
+<br><br>
+
+<!--Radio-->
+<input type="radio" id="Male" name="Gender" value="Male"> 
+<label for="Male">Male</label>
+<input type="radio" id="Female" name="Gender" value="Male"> 
+<label for="Female">Female</label>
+<input type="radio" id="Transgender" name="Gender" value="Transgender">
+<label for="Transgender">Transgender</label>
+
+<br><br>
+
+
+
+<!--Date-->
+<label for="DOB">DOB:</label>
+<input type="date" id="DOB" name="DOB">
+<br><br>
+
+
+
+<!--email-->
+<label for="email">Enter your email:</label>
+<input type="email" id="email" name="email"><br><br>
+
+
+
+<!--passwd-->
+  <label for="passwd">Password:</label>
+  <input type="password" id="passwd" name="passwd" ><br><br>
+
+  <label for="passwd1">re-enter Password:</label>
+  <input type="password" id="passwd1" name="passwd1" ><br><br>
+
+
+
+<!--mobile-->
+  <label for="mobile">Mobile Number:</label>
+  <input type="text" id="mobileno" name="mobile" maxlength="8"><br><br>
+
+<label for="Language">Known Language</label>
+
+
+<!--Option-->
+
+<select id="Language" name="Language">
+  <option value="English"  >English </option>
+  <option value="Tamil" selected>Tamil</option>
+  <option value="Hindi">Hindi</option>
+  <option value="Telugu">Telugu</option>
+</select> 
+
+
+
+<!--Check box-->
+
+<input type="checkbox" id="Read" name="Read" value="Read">
+<label for="Read"> Read</label>
+<input type="checkbox" id="Write" name="Write" value="Write">
+<label for="Write"> Write</label>
+<input type="checkbox" id="Speak" name="Speak" value="Speak">
+<label for="Speak"> Speak</label>
+<br><br>
+
+<!--Option-->
+
+<label for="Country">Nationality</label>
+<input list="Nationality" id="Country" name="Country" />
+
+<datalist id="Nationality">
+    <option value="India">
+    <option value="Singapore">
+    <option value="Malaysia">
+    <option value="Indonesia">
+    <option value="Srilanka">
+    <option value="Thailand">
+</datalist>
+<br><br>
+
+
+<!--Submit-->
+  <input type="submit" value="Save">
+
+</form>
+
+</html>
